@@ -1,2 +1,2 @@
-# crx_youtube_reloader
+# crx-youtube-reloader
 Reload YouTube at specific times
