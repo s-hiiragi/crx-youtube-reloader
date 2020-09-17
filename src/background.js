@@ -34,6 +34,7 @@ function registerTimer(tabId) {
 
 	function reload(tabId) {
 		console.log('reload:', tabId);
+		// TODO check whether tabId is enabled or not
 		const details = {
 			code: 'location.reload();'
 		};
