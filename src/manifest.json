@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "YouTube Reloader",
+	"version": "1.0",
+
+	"background": {
+		"scripts": ["background.js"],
+		"parsistent": false
+	},
+
+	"permissions": [
+		"tabs",
+		"*://www.youtube.com/*"
+	]
+}
